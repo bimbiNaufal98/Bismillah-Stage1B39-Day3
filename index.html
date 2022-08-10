@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Selamat Datang Day3</title>
+</head>
+<body>
+    <div>
+        <form>
+            <div class="judul">Get In Touch</div>
+            <div>
+                <label for="input-name">Name</label>
+                <input id="input-name" type="text">
+            </div>
+            <div>
+                <label for="input-email">Email</label>
+                <input id="input-email" type="email">
+            </div>
+            <div>
+                <label for="input-phonenumber">Phone Number</label>
+                <input id="input-phonenumber" type="number">
+            </div>
+            <div>
+                <label for="input-select">Subject</label>
+                <select id="input-select">
+                    <option value=""></option>
+                    <option value="Fullstack-WebDev">Fullstack WebDev</option>
+                    <option value="Backend-WebDev ">Backend WebDev</option>
+                    <option value="Frontend-WebDev">Frontend WebDev</option>
+                </select>
+            </div>
+            <div>
+                <label for="input-message">Your Message</label>
+                <textarea id="input-message"></textarea>
+            </div>
+            <button type="button" onclick="submitData()">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="form.js"></script>
+</html>
