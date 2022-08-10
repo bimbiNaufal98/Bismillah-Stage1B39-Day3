@@ -25,14 +25,10 @@ function submitData() {
     console.log(subject);
     console.log(message);
 
-    let emailReceiver="bimbinaufal313@gmail.com"
+    let emailReceiver="minyaksawitalbarokahi@gmail.com"
 
-    let a=document.createElement('a')
-    
-    a.href=`mailto: ${emailReceiver}?subject=${subject}&body=Assalammu'alaikum Warahmatullahi Wabarakaatuh,
-    perkenalkan nama saya ${name}, silahkan kontak saya ke email ${email}, dan nomer telepon ${number},
-    sebelumnya ada yang ingin saya sampaikan terkait ini ${message}`
-    
+    let a=document.createElement("a")
+    a.href=`mailto:${emailReceiver}?subject=${subject}&body=Assalammu'alaikum Warahmatullahi Wabarakaatuh, perkenalkan nama saya ${name}, silahkan kontak saya ke email ${email}, dan nomer telepon ${number}, sebelumnya ada yang ingin saya sampaikan terkait ini ${message}`
     a.click()
 
     let siswa = {
